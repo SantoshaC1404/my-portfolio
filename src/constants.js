@@ -152,7 +152,7 @@ export const projects = [
       "A web-based contact management application that allows users to store, manage, and organize their contacts efficiently. It features user authentication, CRUD operations for contacts, and a responsive design for seamless interaction across devices. Built with React.js for the frontend and Spring Boot with MySQL for the backend.",
     image: scmLogo,
     tags: ["React JS", "Spring Boot", "MySQL", "HTML", "CSS", "JavaScript"],
-    github: "",
+    github: "https://github.com/SantoshaC1404/scm",
     webapp: "",
   },
 ];
