@@ -77,7 +77,7 @@ const About = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="https://drive.google.com/file/d/1tiy124-q86R3XlGAjKvGlUfBLqlP1S31/view?usp=drive_link"
+              href="https://drive.google.com/file/d/12HYPW7EI4xT9XXUzOzExP-vCZpLZhrHJ/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full text-base font-bold transition duration-300 transform hover:scale-105 text-center"
