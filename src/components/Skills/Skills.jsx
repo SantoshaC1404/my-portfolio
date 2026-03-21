@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-20 pb-20 px-[1vw] md:px-[5vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
+      className="py-20 pb-6 px-[1vw] md:px-[5vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
     >
       {/* Section Title */}
       <div className="text-center mb-8">
@@ -23,41 +23,37 @@ const Skills = () => {
         {SkillsInfo.map((category) => (
           <div
             key={category.title}
-            className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
-          shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]"
+            className="w-full sm:w-[48%] mb-10 bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 rounded-2xl border border-white shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] overflow-hidden"
           >
-            <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
+            <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-6 text-center">
               {category.title}
             </h3>
 
-            {/* Skill Items - 3 per row on larger screens */}
-            <Tilt
-              key={category.title}
-              tiltMaxAngleX={20}
-              tiltMaxAngleY={20}
-              perspective={1000}
-              scale={1.05}
-              transitionSpeed={1000}
-              gyroscope={true}
-            >
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
-                {category.skills.map((skill) => (
-                  <div
-                    key={skill.name}
-                    className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
-                  >
+            <div className="flex flex-wrap justify-center gap-5">
+              {category.skills.map((skill) => (
+                <Tilt
+                  key={skill.name}
+                  tiltMaxAngleX={25}
+                  tiltMaxAngleY={25}
+                  perspective={500}
+                  scale={1.15}
+                  transitionSpeed={400}
+                  gyroscope={false}
+                >
+                  <div className="group relative flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full border-2 border-gray-700 bg-gray-800 hover:border-purple-500 hover:shadow-[0_0_12px_rgba(130,69,236,0.6)] transition-all duration-300">
                     <img
                       src={skill.logo}
-                      alt={`${skill.name} logo`}
-                      className="w-6 h-6 sm:w-8 sm:h-8"
+                      alt={skill.name}
+                      className="w-7 h-7 sm:w-9 sm:h-9 object-contain"
                     />
-                    <span className="text-xs sm:text-sm text-gray-300">
+                    {/* Tooltip on hover */}
+                    <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-xs text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none">
                       {skill.name}
                     </span>
                   </div>
-                ))}
-              </div>
-            </Tilt>
+                </Tilt>
+              ))}
+            </div>
           </div>
         ))}
       </div>
