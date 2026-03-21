@@ -1,5 +1,4 @@
-## My Portfolio
-# 🚀 Santosha C — Developer Portfolio
+# 🚀 Santosha C — Portfolio
 
 A modern, responsive personal portfolio website built with **React.js** and **Tailwind CSS**, showcasing my skills, experience, projects, and contact information.
 
