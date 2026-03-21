@@ -120,7 +120,7 @@ export const education = [
     school: "UBDTCE, Davanagere",
     date: "Aujust 2019 - May 2023",
     grade: "7.5 CGPA",
-    desc: "I have completed my Bachelor's degree (B.E) in Computer Science from UBDTCE, Davanagere. During my time at UBDT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. My experience at UBDTCE has been instrumental in shaping my technical abilities and professional growth.",
+    desc: "I have completed my Bachelor's degree (B.E) in Computer Science from UBDTCE, Davanagere. During my time at UBDT, I gained a strong foundation in programming, software development, and computer science principles. My experience at UBDTCE has been instrumental in shaping my technical abilities and professional growth.",
     degree: "Bachelor of Engineering - CSE",
   },
   {
@@ -128,7 +128,7 @@ export const education = [
     img: jainLogo,
     school: "Jain P U College, Moodbidri",
     date: "Apr 2017 - March 2019",
-    grade: "67%",
+    grade: "77%",
     desc: "I completed my class 12 education from Jain P U College, Moodbidri, where I studied Physics, Chemistry, and Mathematics (PCM) with Biology.",
     degree: "XII - PCM with Biology",
   },
