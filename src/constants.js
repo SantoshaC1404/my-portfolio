@@ -25,6 +25,7 @@ import jainLogo from "./assets/education_logo/jain_logo.jpeg";
 // Project Section Logo's
 import chatImage from "./assets/work_logo/chatapp_reference.jpg";
 import scmLogo from "./assets/work_logo/scm_logo.png";
+import authAppImage from "./assets/work_logo/auth_app.png"; // replace with auth-app screenshot if available
 
 export const SkillsInfo = [
   {
@@ -147,12 +148,23 @@ export const projects = [
 
   {
     id: 1,
+    title: "Auth App",
+    description:
+      "A full-stack authentication application featuring secure user registration and login with JWT-based authentication, password hashing, and protected routes. Built with React.js on the frontend and a Node.js/Express backend with MongoDB for user data storage.",
+    image: authAppImage,
+    tags: ["React JS", "Node JS", "Express", "MongoDB", "JWT", "JavaScript"],
+    github: "https://github.com/SantoshaC1404/auth-app/tree/main",
+    webapp: "",
+  },
+
+  {
+    id: 2,
     title: "Smart Contact Manager",
     description:
       "A web-based contact management application that allows users to store, manage, and organize their contacts efficiently. It features user authentication, CRUD operations for contacts, and a responsive design for seamless interaction across devices. Built with React.js for the frontend and Spring Boot with MySQL for the backend.",
     image: scmLogo,
     tags: ["React JS", "Spring Boot", "MySQL", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/SantoshaC1404/scm",
+    github: "https://github.com/SantoshaC1404/scm/tree/main",
     webapp: "",
   },
 ];
