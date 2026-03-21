@@ -6,7 +6,7 @@ A modern, responsive personal portfolio website built with **React.js** and **Ta
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Portfolio-purple?style=for-the-badge)](https://santosh-chat-app.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Portfolio-purple?style=for-the-badge)](https://santoshac.netlify.app/)
 
 ---
 
