@@ -150,9 +150,9 @@ export const projects = [
     id: 1,
     title: "Auth App",
     description:
-      "A full-stack authentication application featuring secure user registration and login with JWT-based authentication, password hashing, and protected routes. Built with React.js on the frontend and a Node.js/Express backend with MongoDB for user data storage.",
+      "A full-stack authentication application featuring secure user registration and login with JWT-based authentication, password hashing, and protected routes. Built with React.js on the frontend and a Spring Boot backend with MySQL for user data storage.",
     image: authAppImage,
-    tags: ["React JS", "Node JS", "Express", "MongoDB", "JWT", "JavaScript"],
+    tags: ["Spring Boot", "React JS", "MYSQL", "JWT",],
     github: "https://github.com/SantoshaC1404/auth-app/tree/main",
     webapp: "",
   },

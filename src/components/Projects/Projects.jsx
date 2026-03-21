@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <section
       id="work"
-      className="py-20 pb-20 px-[1vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-20 pb-10 px-[1vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
