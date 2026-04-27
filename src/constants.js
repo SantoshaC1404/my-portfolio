@@ -142,8 +142,8 @@ export const projects = [
       "A real-time chat application that allows users to communicate instantly. It features user authentication, multiple chat rooms, and a responsive design for seamless interaction across devices. Built with React.js for the frontend and Spring Boot with Socket.io for real-time communication on the backend.",
     image: chatImage,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Spring Boot"],
-    github: "https://github.com/SantoshaC1404/chat-app",
-    webapp: "https://santosh-chat-app.netlify.app/",
+    github: "https://github.com/SantoshaC1404/chat_app",
+    // webapp: "https://santosh-chat-app.netlify.app/",
   },
 
   {
