@@ -11,6 +11,7 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "contact", label: "Contact" },
   ];
 
   return (
@@ -24,8 +25,13 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-300">
           {menuItems.map((item) => (
-            <li key={item.id} className="hover:text-[#8245ec] cursor-pointer">
-              <a href={`#${item.id}`}>{item.label}</a>
+            <li key={item.id}>
+              <a
+                href={`#${item.id}`}
+                className="hover:text-[#8245ec] cursor-pointer nav-link"
+              >
+                {item.label}
+              </a>
             </li>
           ))}
         </ul>
@@ -61,16 +67,15 @@ const Navbar = () => {
 
       {/* Mobile Menu Drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 bg-[#050414]/70 backdrop-blur-lg shadow-lg transform transition-transform duration-300 md:hidden ${
-          open ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`fixed top-0 right-0 h-full w-3/4 bg-[#050414]/70 backdrop-blur-lg shadow-lg transform transition-transform duration-300 md:hidden ${open ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="mt-20 flex bg-[#050414]/70 flex-col items-center space-y-6 text-gray-300">
           {menuItems.map((item) => (
             <a
               key={item.id}
               href={`#${item.id}`}
-              className="hover:text-[#8245ec] text-lg"
+              className="hover:text-[#8245ec] text-lg nav-link"
               onClick={() => setOpen(false)}
             >
               {item.label}

@@ -8,14 +8,18 @@ const Contact = () => {
   const [isSent, setIsSent] = useState(false);
 
   const sendEmail = (e) => {
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_pfzn5hc", // EmailJS Service ID
-        "template_yvgu6qa", // EmailJS Template ID
+        serviceID, // EmailJS Service ID
+        templateID, // EmailJS Template ID
         form.current,
-        "YHqr4-CGoK8SLi2FK" // EmailJS Public Key
+        publicKey // EmailJS Public Key
       )
       .then(
         () => {

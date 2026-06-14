@@ -1,22 +1,19 @@
-// Skills Section Logo's
-import htmlLogo from "./assets/tech_logo/html.png";
-import cssLogo from "./assets/tech_logo/css.png";
-import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
 import reduxLogo from "./assets/tech_logo/redux.png";
+import angularLogo from "./assets/tech_logo/angular.png";
 import springbootLogo from "./assets/tech_logo/springboot.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import pythonLogo from "./assets/tech_logo/python.png";
+import fastAPILogoLogo from "./assets/tech_logo/FastAPI.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
+import dockerLogo from "./assets/tech_logo/docker.png";
 
 // Experience Section Logo's
 import belLogo from "./assets/company_logo/bel_logo.png";
-// import agcLogo from "./assets/company_logo/agc_logo.png";
-// import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 
 // Education Section Logo's
 import ubdtLogo from "./assets/education_logo/ubdt_logo.jpg";
@@ -25,33 +22,31 @@ import jainLogo from "./assets/education_logo/jain_logo.jpeg";
 // Project Section Logo's
 import chatImage from "./assets/work_logo/chatapp_reference.jpg";
 import scmLogo from "./assets/work_logo/scm_logo.png";
-import authAppImage from "./assets/work_logo/auth_app.png"; // replace with auth-app screenshot if available
+import authAppImage from "./assets/work_logo/auth_app.png";
 
 export const SkillsInfo = [
   {
     title: "Frontend",
     skills: [
-      { name: "HTML", logo: htmlLogo },
-      { name: "CSS", logo: cssLogo },
-      { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
       { name: "Redux", logo: reduxLogo },
+      { name: "Angular", logo: angularLogo },
     ],
   },
   {
     title: "Backend",
     skills: [
+      { name: "Java", logo: javaLogo },
       { name: "Springboot", logo: springbootLogo },
       { name: "Python", logo: pythonLogo },
-      { name: "MySQL", logo: mysqlLogo },
-      { name: "MongoDB", logo: mongodbLogo },
+      { name: "FastAPI", logo: fastAPILogoLogo },
     ],
   },
   {
-    title: "Languages",
+    title: "Database",
     skills: [
-      { name: "Java", logo: javaLogo },
-      { name: "Python", logo: pythonLogo },
+      { name: "MySQL", logo: mysqlLogo },
+      { name: "MongoDB", logo: mongodbLogo },
     ],
   },
   {
@@ -60,6 +55,7 @@ export const SkillsInfo = [
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
       { name: "Postman", logo: postmanLogo },
+      { name: "Docker", logo: dockerLogo },
     ],
   },
 ];
@@ -73,44 +69,17 @@ export const experiences = [
     date: "July 2024 - Present",
     desc: "Developed dynamic and scalable web applications using the Python, handling both frontend and backend development. Implement RESTful APIs, and optimize application performance in an agile environment.",
     skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Python",
+      "FastAPI",
       "Angular",
       "TypeScript",
       "Node JS",
       "PostgreSQL",
-      "Python",
+      "Git",
+      "Postman",
     ],
   },
-  /*
-  {
-    id: 1,
-    img: agcLogo,
-    role: "Fullstack Engineer",
-    company: "Agumentik Group of Companies",
-    date: "July 2023 - March 2024",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
-  },
-  {
-    id: 2,
-    img: newtonschoolLogo,
-    role: "Frontend Intern",
-    company: "Newton School",
-    date: "September 2021 - August 2022",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
-  },
-  */
+
 ];
 
 export const education = [
@@ -135,6 +104,7 @@ export const education = [
 ];
 
 export const projects = [
+
   {
     id: 0,
     title: "Real Time Chat Application",
@@ -143,7 +113,6 @@ export const projects = [
     image: chatImage,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Spring Boot"],
     github: "https://github.com/SantoshaC1404/chat_app",
-    // webapp: "https://santosh-chat-app.netlify.app/",
   },
 
   {

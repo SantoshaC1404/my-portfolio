@@ -10,15 +10,16 @@ const About = () => {
       className="py-16 px-[5vw] md:px-[4vw] lg:px-[12vw] font-sans mt-1 md:mt-6 lg:mt-1"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10 md:gap-16">
+
         {/* Left Side - Text Content */}
         <div className="md:w-1/2 text-center md:text-left">
           {/* Name */}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-3xl font-bold text-white mb-3 leading-tight">
             Hi, I'm <span className="text-purple-500">Santosha C</span>
           </h1>
 
           {/* Typewriter */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-5 leading-tight">
+          <h2 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-5 leading-tight">
             <span className="text-gray-300">I'm a </span>
             <span className="text-purple-400">
               <Typewriter
@@ -38,13 +39,13 @@ const About = () => {
           </h2>
 
           {/* Divider */}
-          <div className="w-16 h-1 bg-purple-500 mb-5 mx-auto md:mx-0 rounded-full"></div>
+          <div className="w-100 h-1 bg-purple-500 mb-5 mx-auto md:mx-0 rounded-full"></div>
 
           {/* About Paragraphs */}
-          <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-3">
+          <p className="text-gray-400 text-base md:text-base leading-relaxed mb-3">
             I'm a passionate Fullstack Developer with{" "}
             <span className="text-white font-semibold">
-              1.6+ years of experience
+              1.10+ years of experience
             </span>{" "}
             building scalable, performant web applications from the ground up.
           </p>
@@ -59,7 +60,7 @@ const About = () => {
           {/* Stats Row */}
           <div className="flex justify-center md:justify-start gap-8 mb-8">
             <div className="text-center">
-              <p className="text-2xl font-bold text-purple-400">1.6+</p>
+              <p className="text-2xl font-bold text-purple-400">1.10+</p>
               <p className="text-gray-500 text-xs mt-1">Years Exp.</p>
             </div>
             <div className="w-px bg-gray-700"></div>
@@ -68,10 +69,6 @@ const About = () => {
               <p className="text-gray-500 text-xs mt-1">Projects</p>
             </div>
             <div className="w-px bg-gray-700"></div>
-            {/* <div className="text-center">
-              <p className="text-2xl font-bold text-purple-400">10+</p>
-              <p className="text-gray-500 text-xs mt-1">Technologies</p>
-            </div> */}
           </div>
 
           {/* CTA Buttons */}
