@@ -9,7 +9,7 @@ import pythonLogo from "./assets/tech_logo/python.png";
 import fastAPILogoLogo from "./assets/tech_logo/FastAPI.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
+import postmanLogo from "./assets/tech_logo/Postman.png";
 import dockerLogo from "./assets/tech_logo/docker.png";
 
 // Experience Section Logo's
